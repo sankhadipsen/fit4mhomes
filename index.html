@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png" />
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fb57935430.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
+    <title>Fit4mHomes</title>
+</head>
+
+<body class="text-gray-800 antialiased">
+    <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
+        <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+            <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start text-center">
+                <a href="index.html"> <img class="w-12 h-12 mb-8 shadow-lg rounded-full bg-black inline-flex" src="./assets/img/logo.png" alt="Logo"></a>
+                <a class="text-sm py-3 pl-3 font-bold leading-relaxed inline-flex whitespace-no-wrap uppercase text-purple-700 border-blue-300" href="index.html" style="float:right">FIT 4M HOMES</a>
+            </div>
+            <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden" id="example-collapse-navbar">
+                <!-- <ul class="flex flex-col lg:flex-row list-none mr-auto">
+                    <li class="flex items-center">
+                        <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/landing">
+                            <i class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"></i>Docs
+                        </a>
+                    </li>
+                </ul> -->
+                <!-- <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+                    <li class="flex items-center">
+                        <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="index.html">
+                            <i class="lg:text-orange-300 text-orange-500 fab fa-facebook text-lg leading-lg "></i>
+                            <span class="lg:hidden inline-block ml-2">Share</span>
+                        </a>
+                    </li>
+                    <li class="flex items-center">
+                        <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="index.html">
+                            <i class="lg:text-orange-300 text-orange-500 fab fa-twitter text-lg leading-lg "></i>
+                            <span class="lg:hidden inline-block ml-2">Tweet</span>
+                        </a>
+                    </li>
+                    <li class="flex items-center">
+                        <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="index.html">
+                            <i class="lg:text-orange-300 text-orange-500 fab fa-instagram text-lg leading-lg "></i>
+                            <span class="lg:hidden inline-block ml-2">Star</span>
+                        </a>
+                    </li>
+
+                </ul> -->
+            </div>
+        </div>
+    </nav>
+    <main class="bg-black pb-20 ml-0">
+        <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 130vh;">
+            <div class="absolute top-0 w-full h-full bg-center bg-cover" style='background-image: url("./assets/img/main-bg.jpg");'>
+                <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+            </div>
+            <div class="container relative mx-auto">
+                <div class="items-center flex flex-wrap">
+                    <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+                        <div class="pr-15">
+                            <h1 class="text-red-600 font-semibold text-4xl" data-aos="flip-right">
+                                Charity Begins At Home, So Does Your Fitness and Agility...
+                            </h1>
+                            <p class="mt-4 text-lg text-white" data-aos="flip-left">
+                                We provide daily workout routines and hand-hold you to fuel your motivation and make sure your form is right. You can build muscles and get fit at home without having to step out. You only need to dedicate a few minutes everyday, Monday to Friday.
+                                <span class="text-red-600 text font-bold"> No expensive or specialised equipments needed (a pair of bottles of soft-drinks filled with water and may be a Skipping rope if it's available)</span>, all exercises can be performed
+                                with just your body weight.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden" style="height: 70px; transform: translateZ(0px);">
+                <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+                  <!-- <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon> -->
+                </svg>
+            </div>
+        </div>
+        <section class="pb-20 bg-black -mt-24">
+            <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 75vh;">
+                <div class="absolute top-0 w-full h-full bg-center bg-cover" style='background-image: url("./assets/img/second-bg.jpg");' data-aos="fade-in">
+                    <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+                </div>
+                <!--What we teach-->
+                <div class="container mx-auto px-4">
+                    <div class="flex flex-wrap">
+                        <div class="lg:pt-12 pt-6 w-full md:w-6/12 px-4 text-center" data-aos="fade-in">
+                            <div class="relative flex flex-col min-w-0 break-words bg-yellow-400 w-full mb-8 shadow-lg rounded-lg">
+                                <div class="px-4 py-5 flex-auto">
+                                    <div class="opacity-90 text-red-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-8 shadow-lg rounded-full bg-black">
+                                        <i class="fas fa-running"></i>
+                                    </div>
+                                    <h6 class="text-xl font-bold text-red-700">Cardiovascular Training</h6>
+                                    <p class="mt-2 mb-4 text-gray-900">
+                                        cardiorespiratory endurance is the level at which your heart, your lungs, and your muscles work together. The more you keep them working the effectiveness of your fat loss develops. We will device the perfect blend to get you started and push you towards
+                                        an atletic fitness.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-6/12 px-4 text-center" data-aos="zoom-out">
+                            <div class="relative flex flex-col min-w-0 break-words bg-yellow-400 w-full mb-8 shadow-lg rounded-lg">
+                                <div class="px-4 py-5 flex-auto">
+                                    <div class="text-red-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-8 shadow-lg rounded-full bg-black">
+                                        <i class="fas fa-dumbbell"></i>
+                                    </div>
+                                    <h6 class="text-xl font-bold text-red-700">Calisthenics</h6>
+                                    <p class="mt-2 mb-4 text-black">
+                                        This is where we will use the weight we have gained around our waistline and else-where, to our advantage. We will push our own body-weight and become leaner and stronger as we progress gradually.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-6/12 px-4 text-center" data-aos="zoom-out">
+                            <div class="relative flex flex-col min-w-0 break-words bg-yellow-400 w-full mb-8 shadow-lg rounded-lg">
+                                <div class="px-4 py-5 flex-auto">
+                                    <div class="text-red-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-8 shadow-lg rounded-full bg-black">
+                                        <i class="fas fa-dumbbell"></i>
+                                    </div>
+                                    <h6 class="text-xl font-bold text-red-700">Mixed Martial Arts</h6>
+                                    <p class="mt-2 mb-4 text-black">
+                                        You don't have to be a professional mixed martial arts (MMA) fighter to go a few rounds at home, but you might benefit from trying an MMA workout. This is a fantastic way of getting your heart-rate up while you get those muscles strong and shape-up.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt-6 w-full md:w-6/12 px-4 text-center" data-aos="flip-right">
+                            <div class="relative flex flex-col min-w-0 break-words bg-yellow-400 w-full mb-8 shadow-lg rounded-lg">
+                                <div class="px-4 py-5 flex-auto">
+                                    <div class="text-red-600 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-8 shadow-lg rounded-full bg-black">
+                                        <i class="fas fa-jedi"></i>
+                                    </div>
+                                    <h6 class="text-xl font-bold text-red-700">Yoga</h6>
+                                    <p class="mt-2 mb-4 text-black">
+                                        The benefits of Yoga are multifaceted. From increased strength to flexibility to heart health everything has its roots here. There is a reason it marks its presence in ancient scriptures, Yoga gets your blood flowing. More specifically, the relaxation
+                                        exercises you learn in yoga can help your circulation, especially in your hands and feet. Yoga also gets more oxygen to your cells, which function better as a result. Join us to find out its magical healing powers...
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!--Subscription-->
+            <div class="flex flex-wrap items-center mt-32 text-center" data-aos="zoom-out">
+                <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+                    <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                        <p class="text-xl font-bold text-yellow-500">Monthly Supscription Plan: </p><br>
+                        <div class="h-full p-6 rounded-lg border-2 border-indigo-500 flex flex-col relative overflow-hidden">
+                            <span class="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">8PM IST</span>
+                            <h2 class="text-lg tracking-widest title-font mb-1 text-yellow-400 font-semibold">All Round Fitness</h2>
+                            <h1 class="text-2xl text-red-500 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                                <span>INR 500 for Single and INR 700 if your Spouse accompanies you</span>
+                            </h1>
+                            <p class="flex items-center text-gray-600 mb-2">
+                                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                      </svg>
+                                    </span>Steady State and HIIT Cardio
+                            </p>
+                            <p class="flex items-center text-gray-600 mb-2">
+                                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                      </svg>
+                                    </span>Kick Boxing
+                            </p>
+                            <p class="flex items-center text-gray-600 mb-2">
+                                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                        <path d="M20 6L9 17l-5-5"></path>
+                                      </svg>
+                                    </span>Body Weight Workouts
+                            </p>
+                            <p class="flex items-center text-gray-600 mb-2">
+                                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                                       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                            <path d="M20 6L9 17l-5-5"></path>
+                                       </svg>
+                                </span>Saturday Stretching Sessions (S3)
+                            </p>
+                            <!-- <p class="flex items-center text-gray-600 mb-6">
+                                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                                       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                                         <path d="M20 6L9 17l-5-5"></path>
+                                       </svg>
+                                    </span>Personalised Diet Plan
+                            </p> -->
+                            <button class="flex items-center mt-auto text-white bg-blue-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded" onclick="discuss();">Let's Discuss
+                                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                  </svg>
+                                </button>
+                            <p class="text-lg text-gray-500 mt-3">All you need to get fit from the inside-out</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Our Details-->
+        <!-- <section class="relative py-20">
+            <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20" style="height: 80px; transform: translateZ(0px);">
+                <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+            <polygon
+              class="text-white fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+            </div>
+            <div class="container mx-auto px-4">
+                <div class="items-center flex flex-wrap">
+                    <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+                        <img alt="..." class="max-w-full rounded-lg shadow-lg" src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80" />
+                    </div>
+                    <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+                        <div class="md:pr-12">
+                            <div class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
+                                <i class="fas fa-rocket text-xl"></i>
+                            </div>
+                            <h3 class="text-3xl font-semibold">A growing company</h3>
+                            <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                                The extension comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go.
+                            </p>
+                            <ul class="list-none mt-6">
+                                <li class="py-2">
+                                    <div class="flex items-center">
+                                        <div>
+                                            <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i class="fas fa-fingerprint"></i></span>
+
+                                        </div>
+                                        <div>
+                                            <h4 class="text-gray-600">
+                                                Carefully crafted components
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="py-2">
+                                    <div class="flex items-center">
+                                        <div>
+                                            <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i class="fab fa-html5"></i></span>
+
+                                        </div>
+                                        <div>
+                                            <h4 class="text-gray-600">Amazing page examples</h4>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="py-2">
+                                    <div class="flex items-center">
+                                        <div>
+                                            <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i class="far fa-paper-plane"></i></span>
+
+                                        </div>
+                                        <div>
+                                            <h4 class="text-gray-600">Dynamic components</h4>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!--our pics and contact info-->
+        <section class="pt-20 pb-48">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-wrap justify-center text-center mb-24">
+                    <div class="w-full lg:w-6/12 px-4">
+                        <h2 class="text-4xl font-semibold text-green-500" data-aos="fade-in">Meet Our Small Team of Like Minded Enthusiasts...</h2>
+                        <p class="text-lg leading-relaxed m-4 text-white" data-aos="zoom-in">
+                            We are a group of normal people, with the drive of giving back to the community. You can call us the <span class="text-orange-600 font-bold">Three Musketeers</span>. We are fun to be with and enjoy a hearty laugh.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-wrap">
+                    <div class="items-center w-full md:w-4/12 lg:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
+                        <div class="px-6">
+                            <img alt="..." src="./assets/img/Sharad.jpg" class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">Sharad Mishra</h5>
+                                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                                    Motivator, Guide, Mentor and Friend
+                                </p>
+                                <div class="mt-5 inline-flex items-center justify-center">
+                                    <div class="text-orange-600 p-3 w-11 h-11 shadow-lg rounded-full bg-black inline-flex items-center justify-center">
+                                        <i class="fas fa-mobile-alt"></i>
+                                    </div>
+                                    <p class="text-md text-orange-600">9774412379</p>
+                                    <div class="text-orange-600 p-3 w-11 h-11 shadow-lg rounded-full bg-black inline-flex items-center justify-center">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </div>
+                                    <p class="text-md text-orange-600">onlinesharad1891@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-4/12 lg:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-down">
+                        <div class="px-6">
+                            <img alt="..." src="./assets/img/sankhadip.jpg" class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">Sankhadip Sen</h5>
+                                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                                    Fitness Trainer
+                                </p>
+                                <div class="mt-5 inline-flex items-center justify-center">
+                                    <div class="text-orange-600 p-3 w-11 h-11 shadow-lg rounded-full bg-black inline-flex items-center justify-center">
+                                        <i class="fas fa-mobile-alt"></i>
+                                    </div>
+                                    <p class="text-md text-orange-600">7044067730</p>
+                                    <div class="text-orange-600 p-3 w-11 h-11 shadow-lg rounded-full bg-black inline-flex items-center justify-center">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </div>
+                                    <p class="text-md text-orange-600">sankhadip.sen@gmail.com</p>
+                                    <!-- <button class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
+                                    <i class="fab fa-facebook-f"></i>
+                                  </button>
+                                    <button class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
+                                    <i class="fab fa-dribbble"></i>
+                                  </button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-4/12 lg:w-4/12 lg:mb-0 mb-12 px-4" data-aos="zoom-in">
+                        <div class="px-6">
+                            <img alt="..." src="./assets/img/sreejoni.jpg" class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">Sreejoni Sen Laskar</h5>
+                                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                                    Yoga Instructor
+                                </p>
+                                <div class="mt-5 inline-flex items-center justify-center">
+                                    <!-- <div class="text-orange-600 p-3 w-11 h-11 shadow-lg rounded-full bg-black inline-flex items-center justify-center">
+                                        <i class="fas fa-mobile-alt"></i>
+                                    </div>
+                                    <p class="text-md text-orange-600">7044067730</p> -->
+                                    <div class="text-orange-600 p-3 w-11 h-11 shadow-lg rounded-full bg-black inline-flex items-center justify-center">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </div>
+                                    <p class="text-md text-orange-600">sreejoni.laskar@gmail.com</p>
+                                    <!-- <button class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
+                                    <i class="fab fa-facebook-f"></i>
+                                  </button>
+                                    <button class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
+                                    <i class="fab fa-dribbble"></i>
+                                  </button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                        <div class="px-6">
+                            <img alt="..." src="./assets/img/team-1-800x800.jpg" class="shadow-lg rounded-full max-w-full mx-auto" style="max-width: 120px;" />
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">Ryan Tompson</h5>
+                                <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                                    Web Developer
+                                </p>
+                                <div class="mt-6">
+                                    <button class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
+                                    <i class="fab fa-twitter"></i>
+                                  </button>
+                                    <button class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
+                                    <i class="fab fa-facebook-f"></i>
+                                  </button>
+                                    <button class="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1" type="button">
+                                    <i class="fab fa-dribbble"></i>
+                                  </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+        </section>
+        <section class="pb-20 relative block bg-gray-900" data-aos="zoom-in">
+            <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+                <div class="flex flex-wrap text-center justify-center">
+                    <div class="w-full lg:w-6/12 px-4">
+                        <h2 class="text-4xl font-semibold text-white">Why Are We A Good Choice?</h2>
+                    </div>
+                </div>
+                <div class="flex flex-wrap mt-12 justify-center">
+                    <div class="w-full lg:w-3/12 px-4 text-center">
+                        <div class="text-orange-600 p-3 w-15 h-15 shadow-lg rounded-full bg-black inline-flex items-center justify-center">
+                            <i class="fas fa-user-shield fa-2x"></i>
+                        </div>
+                        <h6 class="text-lg mt-5 font-semibold text-red-600">
+                            Knowledge Through Experience.
+                        </h6>
+                        <p class="mt-2 mb-4 text-gray-500">
+                            We've already been where you are now. We've walked the path and know what you need to get fit and strong.
+                        </p>
+                    </div>
+                    <div class="w-full lg:w-3/12 px-4 text-center">
+                        <div class="text-orange-600 p-3 w-15 h-15 shadow-lg rounded-full bg-black inline-flex items-center justify-center">
+                            <i class="fas fa-hand-holding-heart fa-2x"></i>
+                        </div>
+                        <h5 class="text-lg mt-5 font-semibold text-red-600">
+                            Interactive Sessions
+                        </h5>
+                        <p class="mt-2 mb-4 text-gray-500">
+                            We care for you and are equally concerned about how you feel and what you wish to achieve. If you need to talk about a way of working-out, we will listen and try to incorporate it into your regime.
+                        </p>
+                    </div>
+                    <div class="w-full lg:w-3/12 px-4 text-center">
+                        <div class="text-orange-600 p-3 w-15 h-15 shadow-lg rounded-full bg-black inline-flex items-center justify-center">
+                            <i class="fas fa-rupee-sign fa-2x"></i>
+                        </div>
+                        <h5 class="text-xl mt-5 font-semibold text-red-600">Value For Money</h5>
+                        <p class="mt-2 mb-4 text-gray-500">
+                            We have the cheapest plan in this universe and plan to keep it that way. We believe, physical fitness shouldn't put strain on your financial fitness.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <form action="mailto:sankhadip.sen@gmail.com" method="POST" enctype="text/plain" id="form">
+            <section class="relative block py-24 lg:pt-0 bg-gray-900" data-aos="zoom-in">
+                <div class="container mx-auto px-4">
+                    <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+                        <div class="w-full lg:w-6/12 px-4">
+                            <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-800">
+                                <div class="flex-auto p-5 lg:p-10">
+                                    <h4 class="text-2xl text-white font-semibold">Want To Get Fit With Us?</h4>
+                                    <p class="leading-relaxed mt-1 mb-4 text-white">
+                                        Drop us an Email...
+                                    </p>
+                                    <div class="relative w-full mb-3 mt-8">
+                                        <label class="block uppercase text-white text-xs font-bold mb-2" for="full-name">Full Name</label>
+                                        <input type="text" name="Full-Name" class="px-3 py-3 placeholder-gray-700 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full" placeholder="Full Name" style="transition: all 0.15s ease 0s;" />
+                                    </div>
+                                    <div class="relative w-full mb-3">
+                                        <label class="block uppercase text-white text-xs font-bold mb-2" for="email">Email</label>
+                                        <input type="email" name="E-Mail" class="px-3 py-3 placeholder-gray-700 gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full" placeholder="Email" style="transition: all 0.15s ease 0s;" />
+                                    </div>
+                                    <div class="relative w-full mb-3">
+                                        <label class="block uppercase text-white text-xs font-bold mb-2" for="phone">Phone Number</label>
+                                        <input type="text" name="Phone-Number" class="px-3 py-3 placeholder-gray-700 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full" placeholder="Phone Number" style="transition: all 0.15s ease 0s;" />
+                                    </div>
+                                    <div class="relative w-full mb-3">
+                                        <label class="block uppercase text-white text-xs font-bold mb-2" for="message">Message</label>
+                                        <textarea rows="4" cols="80" name="message" class="px-3 py-3 placeholder-gray-700 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full" placeholder="Type a message..."></textarea>
+                                    </div>
+                                    <div class="text-center align-middle mt-6">
+                                        <input type="submit" class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1" style="transition: all 0.15s ease 0s;" value="Send Message">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </form>
+    </main>
+    <footer class="relative bg-black pt-6 pb-6">
+        <hr class="my-6 border-red-600" />
+        <div class="flex flex-wrap items-center md:justify-between justify-center">
+            <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+                <div class="text-sm text-red-400 font-semibold py-1">
+                    Copyright © 2020 Fit 4m Homes
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+<script>
+    function toggleNavbar(collapseID) {
+        document.getElementById(collapseID).classList.toggle("hidden");
+        document.getElementById(collapseID).classList.toggle("block");
+    }
+
+    function discuss() {
+        document.getElementById("form").scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        delay: 200,
+        duration: 1500,
+        once: false
+    });
+</script>
+
+</html>
